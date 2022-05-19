@@ -1,0 +1,31 @@
+baseURL: "/"
+languageCode: "en-us"
+title: "Will Morrison's blog"
+disableKinds: ["section"]
+copyright: "Will Morrison"
+paginate: 20
+enableEmoji: true
+
+author:
+    name: "Will Morrison"
+
+params:
+    github: "morrisonwill"
+    linkedin: "will-morrison"
+    email: "blog@willrmorrison.com"
+
+menu:
+  main:
+  - identifier: "archive"
+    name: "Archive"
+    url: "/"
+  - identifier: "about"
+    name: "About Me"
+    url: "/about/"
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    tabWidth: 2
