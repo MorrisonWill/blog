@@ -1,7 +1,7 @@
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
     {{ if .PublishDate }}
-        <time>{{ .PublishDate.Format "2006-01-02" }}</time>
+        <time>{{ .PublishDate.Format "Jan 2, 2006" }}</time>
     {{ end }}
     {{ if .Params.categories }}
         <a href="{{ "/categories/" | relLangURL }}{{ .Params.categories | urlize }}">{{ .Params.categories }}</a>
